@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu reloj USCO</title>
+    <link rel="stylesheet" href="cronometro.css">
+</head>
+<body class="body">
+    <STYLE>A {text-decoration: none;} </STYLE>
+    <header class="header">
+        <div>
+            <img src="logo.jpg" height="120px"  width="400px">
+        </div>    
+        <div class="title">
+            <h1>TU RELOJ USCO</h1>
+        </div>
+    </header>
+
+    <nav class="nav">
+        <ul class="menu">
+            <li><a href="index.html">Reloj</a></li>
+            <li><a href="cronometro.html">Cronómetro</a></li>
+            <li><a href="temporizador.html">Temporizador</a></li> 
+        </ul> 
+    </nav>
+
+    <section id="section" class="section">
+
+        <form action="" method="get" id="datos" class="datos">
+            <input type="number" name="horas" id="horas" placeholder="horas">
+            <input type="number" name="minutos" id="minutos" placeholder="Minutos">
+            <input type="number" name="segundos" id="segundos" placeholder="Segundos">
+    
+    
+        </form>
+
+        <div class="chronometer">
+            <div id="screen">00 : 00 : 00 : 00</div>
+            <div class="buttons">
+                <button class="emerald" onclick="start()">START &#9658;</button>
+                <button class="emerald" onclick="stop()">STOP &#8718;</button>
+                <button class="emerald" onclick="resume()" >RESUME &#8634;</button>
+                <button class="emerald" onclick="reset()">RESET &#8635;</button>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <footer class="footer">    
+        <h3>Correo: u20162151287@usco.edu.co</h3>
+        <h3>Celular: 3132067852</h3>
+        <h6>By Juan Jimenez</h6>
+    </footer>
+
+    <script src="./temporizador.js"></script>
+</body>
+
+</html>

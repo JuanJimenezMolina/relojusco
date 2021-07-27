@@ -1,0 +1,54 @@
+*{margin: 0%;
+padding: 0%;}
+
+.header{color: #FFF;
+        background: #8F141B;  
+        margin: 0%;
+        height: auto;}
+.title{padding: 6%;
+        text-align: right;
+        margin-right: 20%;}
+.header img{padding: 2%;
+            float: left;
+            margin-right: 4%;}
+.nav{border: black;
+    border-radius: 5px;
+    border-style: double;
+    background:#EFEAD3;
+    margin: 0%;
+    margin-top: 0%;
+    padding: 0%;
+    text-align: center;
+}
+.nav a{color: black;}
+li{ list-style: none;
+    display: inline-block;
+    padding: 1.5%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 25px;
+    color: black;}
+.section{   background: white;
+            height: 280px;}
+
+.footer{padding: auto;
+         text-align: center;
+         clear: both;
+         color: white;
+         background: rgb(92, 91, 91);}
+
+.reloj {
+    color: #0d1420;
+    font-size: 500%;
+    font-family: Arial;
+    letter-spacing: 5px;
+    text-align: center;
+    background-color: #19bad6;
+    border: 10px solid #091321;
+    border-radius: 20px;
+}
+
+.div{
+    margin: 5%;
+    background-color: white;
+}
+
